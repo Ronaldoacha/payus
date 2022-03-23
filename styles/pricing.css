@@ -1,0 +1,167 @@
+body{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    /* background: #989590; */
+    opacity: 0.9;
+}
+body a:hover{
+    color: orange;
+    }
+    body a:active{
+        color: #660099;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    /* margin-left: 25px; */
+    margin-right: 15px;
+}
+.site-logo{
+    background: #878EA0;
+    width: 150px;
+    height: 200vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.site-logo i{
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.times-cancel{
+    background: #fff;
+    margin-top: 15px;
+}
+.tags{
+    margin-top: 15px;
+}
+.sec-middle{
+    /* text-align: center; */
+    margin-top: -1000px;
+    margin-left: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+section{
+    margin-left: 150px;
+}
+.four{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mark{
+    display: flex;
+}
+.premium{
+    background: #1C55A4;
+    /* color: white;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 12px; */
+    opacity: 0.7;
+}
+.pro{
+    background: #A1A4A9;
+    opacity: 0.8;
+  
+}
+.pro h2{
+    color: #1C55A4;
+}
+.free{
+    background: #B1B2AD;
+    opacity: 0.6;
+}
+.free p{
+    color: #1C55A4;
+}
+.pro, .premium, .free{
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+button{
+    text-align: center;
+    /* margin-left: 25%; */
+    width: 150px;
+    /* background: #47A0D2; */
+    height: 35px;
+    color: #fff;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+
+}
+.premium button{
+    color: #1C55A4;
+}
+.pr button{
+    background:#1C55A4 ;
+    color: white;
+}
+.free button{
+    background: #000;
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+.jump{
+    text-align: center;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.transfer{
+    border-radius: 12px;
+    
+    padding: 10px;
+    width: 600px;
+}
+.twogb i{
+color: #1C55A4;
+}
+.unlimited{
+    border-radius: 12px;
+    background: #1C55A4;
+    width: 250px;
+    padding-left: 15px;
+    color: white;
+}
+.twogb{
+    border-radius: 12px;
+    background: #A1A4A9;
+    
+    padding: 10px;width: 260px;
+}
+.didi div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-price{
+    display: flex;
+    justify-content: space-between;
+}
+.fot-left{
+    padding: 10px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.fot-left a{
+    text-decoration: none;
+}
+.fot-right{
+    padding: 10px;
+    margin-right: 15px;
+}
+.fot-right i:hover{
+cursor: pointer;
+color: red;
+}

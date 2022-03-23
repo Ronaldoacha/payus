@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: white;
+
+}
+body a:hover{
+color: orange;
+}
+body a:active{
+    color: #660099;
+}
+body button:hover{
+    cursor: pointer;
+    box-shadow: 42px;
+    transition:  0.8s;
+    transform: rotateZ(189);
+}
+.tags{
+   justify-content: space-between; 
+   padding: 20px;
+   border-radius: 14px;
+   background: #fff;
+   color: black;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav a{
+    border-right: 3px solid white;
+}
+.logo{
+    margin-left: 30px;
+}
+.side-left{
+    background: #fff;
+    color: black;
+    height: 318px;
+    border-radius: 11px;
+    width: 300px;
+    margin-left: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    
+}
+.side-left button{
+    text-align: center;
+    margin-left: 25%;
+    width: 150px;
+    background: #47A0D2;
+    height: 35px;
+    color: #fff;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+
+}
+.right{
+    margin-left: 640px;
+    margin-top: -200px;
+    background-image: url("wood-nature-forest-brige.jpg");
+}
+.right a{
+    color:#fff ;
+}
+.right i{
+    justify-items: center;
+    text-align: center;
+    margin-left: 200px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+footer{
+    margin-top: 210px;
+    margin-left: 10px;
+}
